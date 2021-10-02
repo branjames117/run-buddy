@@ -100,6 +100,31 @@ section {
 
 /* HERO STYLES END */
 
+/* WHAT WE DO STYLES BEGIN */
+
+.intro {
+  text-align: center;
+}
+
+.intro h2 {
+  font-size: 55px;
+  color: #024e76;
+  display: inline-block;
+  margin-bottom: 35px;
+  padding: 0 100px 20px;
+  border-bottom: 3px solid #fce138;
+}
+
+.intro p {
+  line-height: 1.7;
+  color: #39a6b2;
+  margin: 0 auto;
+  width: 80%;
+  font-size: 20px;
+}
+
+/* WHAT WE DO STYLES END */
+
 footer {
   background: #fce138;
   width: 100%;
