@@ -1,4 +1,4 @@
-# Run Buddy
+# Run Buddy, Inc
 
 ## Purpose
 
@@ -15,4 +15,6 @@ https://branjames117.github.io/run-buddy/
 
 ## Contribution
 
-Made with ❤️ by Brandon Hoskins
+Made with ❤️ by [your name]
+
+### ©️2019 Run Buddy, Inc
