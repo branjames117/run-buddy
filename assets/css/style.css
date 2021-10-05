@@ -145,28 +145,52 @@ section {
   background: var(--primary-color);
 }
 
-.steps div {
-  margin-bottom: 80px;
+.step {
+  border-bottom: 1px solid var(--secondary-color);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px auto;
+  padding-bottom: 50px;
+  width: 80%;
 }
 
-.steps img {
-  width: 15%;
-  margin: 10px 0;
-}
-
-.steps h3 {
+.step h3 {
   color: var(--tertiary-color);
+  flex: 1 30%;
   font-size: 46px;
-  margin-top: 10px;
 }
 
-.steps span {
-  font-size: 38px;
+.step-info {
+  display: flex;
+  flex: 2 70%;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
-.steps p {
+.step-img {
+  flex: 1 12%;
+  margin-right: 20px;
+}
+
+.step-img img {
+  max-width: 100%;
+}
+
+.step-text {
+  flex: 12;
+}
+
+.step-text h4 {
+  color: var(--tertiary-color);
+  font-size: 26px;
+  line-height: 1.5;
+}
+
+.step-text p {
   color: var(--secondary-color);
-  font-size: 23px;
+  font-size: 18px;
 }
 
 /* WHAT YOU DO STYLES END */
